@@ -102,6 +102,10 @@ section {
     list-style-type: circle;
 }
 
+.card {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 #bottomCard {
     display: flex !important;
 }
@@ -125,6 +129,10 @@ section {
 
 #bottomCard > div > i > span {
     font-size: 10px !important;
+}
+
+#repo1 > ul {
+    list-style-type: circle !important;
 }
 
 
