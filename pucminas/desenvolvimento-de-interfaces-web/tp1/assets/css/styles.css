@@ -139,6 +139,19 @@ section {
     padding: 8px;
 }
 
+.carousel {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center !important;;
+}
+
+#carouselExampleFade {
+    max-width: 70%;
+    align-items: center !important;
+    text-align: center !important;
+}
+
 
 
 @keyframes bounce {
