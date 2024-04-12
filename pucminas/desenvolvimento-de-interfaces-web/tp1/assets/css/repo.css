@@ -42,3 +42,7 @@ main > a {
 p, h6, ul, a {
     margin-left: 12px !important;
 }
+
+i > span {
+    font-size: 10px !important;
+}

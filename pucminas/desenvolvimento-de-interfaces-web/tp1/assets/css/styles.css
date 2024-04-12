@@ -135,6 +135,10 @@ section {
     list-style-type: circle !important;
 }
 
+.col-xl-3 {
+    padding: 8px;
+}
+
 
 
 @keyframes bounce {
