@@ -152,6 +152,24 @@ section {
     text-align: center !important;
 }
 
+#coworkers > div > div > div > div {
+    border: none !important;
+    background-color: none !important;
+    border-width: 0;
+    border-color: none !important;
+    box-shadow: none !important;
+    border-radius: 0;
+    text-align: center;
+}
+
+#coworkers > div > div > div > div > img {
+    border-radius: 50%;
+}
+
+#coworkers > div > div > div > div > div > p {
+    font-size: 1.5rem !important;
+}
+
 
 
 @keyframes bounce {
