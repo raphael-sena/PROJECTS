@@ -1,9 +1,18 @@
+h1, h4 {
+    color: #ffffc6 !important;
+}
+
 h4 {
     margin-top: 10px !important;
 }
 
 main > a {
     color: #000000 !important;
+    text-decoration: underline !important;
+}
+
+#repo1 > a {
+    color: white !important;
     text-decoration: underline !important;
 }
 
@@ -21,13 +30,12 @@ main > a {
     font-size: 1rem !important;
     padding: 10px;
     text-decoration: none !important;
-    color: #000000;
+    background-color: #ffffc6;    
     font-size: 20px;
     border-width: 1px !important;
     border-color: #000;
     border-radius: 10px;
     margin-right: 20px !important;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 #titulo {

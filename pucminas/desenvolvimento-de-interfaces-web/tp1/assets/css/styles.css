@@ -51,8 +51,32 @@ table {
 
 /* *************** RESET CSS END ************** */
 
+/* *************** SCROLL BAR ************** */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #660391;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #cacaca;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3f3f3f;
+  }
+/* *************** END SCROLL BAR ************** */
+
+
 body {
-    background-image: linear-gradient(to bottom right, rgb(102, 3, 145), rgb(34, 1, 48), black, black, rgb(34, 1, 48), rgb(102, 3, 145));
+    background-image: linear-gradient(to bottom right, #660391, #220130, black, black, rgb(34, 1, 48), rgb(102, 3, 145));
     color: white !important;
 }
 
@@ -89,6 +113,7 @@ footer {
 
 footer a {
     color: white !important;
+    padding: 10px !important;
 }
 
 section {
@@ -112,6 +137,15 @@ section {
 
 #profile > div > div > div.col-12.col-md-8 > span > strong {
     font-size: 1.2rem;
+}
+
+#container > div > div.col-12.col-md-9 > span {
+    display: flex;
+    
+}
+
+#container > div > div.col-12.col-md-9 > span > a {
+    padding: 0px 5px;
 }
 
 #infos {
