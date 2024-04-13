@@ -258,8 +258,23 @@ section {
     }
   }
 
-/* Small devices (landscape phones, 576px and up) */
-@media screen and (max-width: 576px) { 
+/* Small devices (landscape phones, 576px and up) and Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) { 
+
+    section {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-left: 0px !important;
+        padding-top: 0px !important;;
+    }
+
+    #profile {
+        padding: 0px !important;
+        margin: 0px !important;
+        display: block !important;
+        align-items: center !important;;
+    }
+
     header nav a {
         font-family: "Platypi", serif;
         font-optical-sizing: auto;
@@ -273,18 +288,93 @@ section {
         font-size: 4vw !important;
         padding-left: 25px !important;
     }
-}
 
-/* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) { 
+    .container{
+        display: flex !important;
+        text-align: center !important;
+        justify-content: center !important;;
+    }
 
+    #repo {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    #mundoTech > div {
+        padding-bottom: 20px;
+    }
+
+    #carouselExampleFade {
+        max-width: 100%;
+    }
+
+    body > footer {
+        display: block !important;
+        font-size: 1.5rem !important;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media screen and (min-width: 992px) { 
+@media screen and (min-width: 992px) and (max-width: 1200px) { 
 
+    .row {
+        display: grid !important;
+    }
+
+    #profile > div > div > div.col-12.col-lg-4 {
+        width: 100%;
+    }
+
+    #profile > div > div > div.col-12.col-md-8 {
+        width: 100%;
+        padding: 20px !important;
+    }
+
+    #profile > div > div {
+        justify-content: center !important;
+        text-align: center;
+        width: 100%;
+    }
+
+     #container > div > div.col-12.col-md-9 > h5 {
+        text-align: start;
+    } 
+
+    .container{
+        display: flex !important;
+        text-align: center !important;
+        justify-content: center !important;
+    } 
+
+    #repo {
+        margin: 0px !important;
+        padding: 0px  !important;
+    }
+
+    #repo > .container {
+        display: flex !important;
+    }
+
+    #repo > div > div > div > a > div {
+        display: flex !important;
+        margin: 10px !important;
+        padding: 10px !important;
+    }
+
+    #repo > div > div > div > a > div > div > p {
+        padding: 0px, 5px !important;
+    }
+
+   section {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    #coworkers > div > div > div > div {
+        width: 100%;
+    }
 }
-
+/* 
 /* X-Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
 
@@ -295,4 +385,3 @@ section {
     
 }
 
-/* */
