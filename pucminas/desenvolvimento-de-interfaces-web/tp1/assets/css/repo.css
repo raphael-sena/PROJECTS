@@ -1,4 +1,12 @@
-h1, h4 {
+body {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1,
+h4 {
     color: #ffffc6 !important;
 }
 
@@ -6,12 +14,12 @@ h4 {
     margin-top: 10px !important;
 }
 
-main > a {
+main>a {
     color: #000000 !important;
     text-decoration: underline !important;
 }
 
-#repo1 > a {
+#repo1>a {
     color: white !important;
     text-decoration: underline !important;
 }
@@ -26,11 +34,11 @@ main > a {
     align-items: center;
 }
 
-#topicos > li > a {
+#topicos>li>a {
     font-size: 1rem !important;
     padding: 10px;
     text-decoration: none !important;
-    background-color: #ffffc6;    
+    background-color: #ffffc6;
     font-size: 20px;
     border-width: 1px !important;
     border-color: #000;
@@ -40,17 +48,21 @@ main > a {
 
 #titulo {
     display: flex !important;
-    align-items: center !important;;
+    align-items: center !important;
+    ;
 }
 
 .fa-star {
     padding-left: 20px !important;
 }
 
-p, h6, ul, a {
+p,
+h6,
+ul,
+a {
     margin-left: 12px !important;
 }
 
-i > span {
+i>span {
     font-size: 10px !important;
 }
